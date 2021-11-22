@@ -7,7 +7,7 @@ public class BridgeUtil {
 	public static void main(String[] args) {
 		Bridge bridge = new Bridge("Mahatma Gandhi Setu", 16210, 400000.00, "2019");
 
-		System.out.println(bridge);
+		System.out.println(bridge.toString());
 
 		Class class1 = bridge.getClass();
 		System.out.println(class1.getName());

@@ -1,6 +1,7 @@
 package com.xworkz.abstractionapp;
 
 public abstract class Bank {
+
 	public void bankBrunch(String name, String ifscCode) {
 		System.out.println("Inside bankBrunch");
 	}
